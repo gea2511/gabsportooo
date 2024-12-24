@@ -1,0 +1,133 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+	background-color: #FFF8F3
+}
+label.logo {
+  color: #405d72;
+  font-size: 35px;
+  line-height: 80px;
+  padding: 0 50px;
+  font-weight: bold;
+	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif"
+}
+nav ul {
+  float: right;
+  margin-right: 50px;
+	padding: 0 25px
+}
+nav ul li {
+  display: inline-block;
+  line-height: 80px;
+  margin: 0 5px;
+}
+nav ul li a {
+  color:#405d72;
+  font-size: 17px;
+  padding: 7px 13px;
+  border-radius: 3px;
+	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
+	font-weight: bold
+}
+a.active,
+a:hover {
+  background: #f7e7dc;
+  transition: .5s;
+}
+.section-title{
+	 text-align: center;
+	margin-top: 20px;
+	margin-bottom: 40px;
+	font-size: 50px;
+	color: #405D72;
+	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif"
+}
+
+div.gallery {
+  border: 1px solid #758694;
+	border-radius: 5px;
+	margin-bottom: 20px;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+div.gallery:hover {
+  border: 1px solid #405d72;
+	border-radius: 5px;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+	border-radius: 5px;
+}
+
+div.desc {
+  padding: 20px;
+  text-align: center;
+	color: #405D72;
+	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif"
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.responsive {
+  padding: 0 6px;
+  float: left;
+  width: 24.99999%;
+}
+@media only screen and (max-width: 700px) {
+  .responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .responsive {
+    width: 100%;
+  }
+}
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}.video-container {
+    text-align: center; /* Pusatkan video */
+    margin-top: 20px; /* Jarak atas untuk video */
+}
+
+.video-container iframe {
+    max-width: 100%; /* Pastikan video responsif */
+    height: 560px; /* Tinggi otomatis untuk menjaga rasio aspek */
+}.video-container h2 {
+    font-size: 50px; /* Ukuran font */
+    color: #405D72; /* Warna teks */
+    text-align: center; /* Pusatkan teks */
+    margin-bottom: 20px; /* Jarak bawah */
+    font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
+}
+.social-link-list {
+    display: flex;
+    gap: 40px; /* Jarak antar tautan */
+    justify-content: center; /* Pusatkan tautan secara horizontal */
+    margin-top: 30px; /* Jarak atas untuk daftar tautan */
+}
+
+.social-link {
+    color: #405D72; /* Warna teks tautan */
+    font-size: 30px; /* Ukuran font */
+	padding: 10px;
+    transition: color 0.2s ease; /* Transisi untuk efek hover */
+}
+
+.social-link:hover {
+    color: #758694; /* Warna saat hover */
+}

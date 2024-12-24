@@ -1,0 +1,116 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+	background-color: #FFF8F3
+}
+label.logo {
+  color: #405d72;
+  font-size: 35px;
+  line-height: 80px;
+  padding: 0 50px;
+  font-weight: bold;
+	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif"
+}
+nav ul {
+  float: right;
+  margin-right: 50px;
+	padding: 0 25px
+}
+nav ul li {
+  display: inline-block;
+  line-height: 80px;
+  margin: 0 5px;
+}
+nav ul li a {
+  color:#405d72;
+  font-size: 17px;
+  padding: 7px 13px;
+  border-radius: 3px;
+	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
+	font-weight: bold
+}
+a.active,
+a:hover {
+  background: #f7e7dc;
+  transition: .5s;
+}
+
+.image-container {
+    position: relative;
+    width: 300px; 
+    height: 200px;
+	margin: 10px auto;
+}
+
+.normal-image {
+    width: 100%;
+    height: auto;
+	
+}
+
+.hover-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: auto;
+    opacity: 0; 
+    transition: opacity 0.3s ease; 
+}
+
+.image-container:hover .hover-image {
+    opacity: 1; 
+}
+
+.image-container:hover .normal-image {
+    opacity: 0; 
+}
+main {
+    padding: 100px; /* Padding untuk konten utama */
+	text-align: center;
+	color: #405D72;
+	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif"
+}
+section {
+    height: 10px; /* Tinggi setiap section untuk demonstrasi */
+    padding: 5px;
+    margin: 20px 0; /* Margin antar section */
+}
+.buttons {
+  display: flex;
+  gap: 23px;
+}
+.button {
+  padding: 10px 26px;
+	margin: 20px auto;
+  display: block;
+  border: 1.25px solid; 
+  border-radius: 50px;
+  color: #405d72;
+  font-size: 17px;
+  font-weight: bolder;
+	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
+  transition: 0.3s ease;
+}
+.social-link-list {
+    display: flex;
+    gap: 40px; /* Jarak antar tautan */
+    justify-content: center; /* Pusatkan tautan secara horizontal */
+    margin-top: 30px; /* Jarak atas untuk daftar tautan */
+}
+
+.social-link {
+    color: #405D72; /* Warna teks tautan */
+    font-size: 30px; /* Ukuran font */
+	padding: 10px;
+    transition: color 0.2s ease; /* Transisi untuk efek hover */
+}
+
+.social-link:hover {
+    color: #758694; /* Warna saat hover */
+}
